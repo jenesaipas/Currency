@@ -1,0 +1,18 @@
+currency.html algorithm:
+
+START
+1. Prompt user to select country from drop down menu
+2. Get user selection
+3. Submit selection
+END
+
+currency.php algorithm:
+
+START
+1. Receive $country
+2. FOR $dollars, start with 100, end with 1000, in 100 increments
+3. $amount = $conversionFactor * dollars
+4. DISPLAY country name at top
+5. DISPLAY: DOLLARS and currency name in table via $currency variable
+6. Display amounts in dollars column and currency amount in $amount column
+END
